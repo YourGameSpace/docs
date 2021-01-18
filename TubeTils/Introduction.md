@@ -12,3 +12,4 @@ TubeTils is a comprehensive Developer-API that can simplify programming for the 
 - Minecraft-Version 1.14.4 or higher
 - Maven
 - An IDE that supports Maven
+- Some Java-Skills
