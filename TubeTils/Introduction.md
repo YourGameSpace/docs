@@ -4,4 +4,4 @@ In this part TubeTils is described a little bit, which functions it provides, fo
 
 ## What is TubeTils?
 
-TubeTils is a comprehensive developer API that can simplify programming for the Spigot API by providing many helpful and useful methods for sometimes very complex things.
+TubeTils is a comprehensive Developer-API that can simplify programming for the Spigot API by providing many helpful and useful methods for sometimes very complex things.
