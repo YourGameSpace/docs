@@ -8,4 +8,15 @@ For example, AntiCooldown or TubeTils can be implemented directly into your Mave
 - Maven
 - An IDE that supports Maven
 
-Thats it!
+## Usage
+
+In order to access our Repository with Maven and then use it afterwards, the Repository itself must first be added. To do this, the following code snippet must be added to the pom.xml:
+
+```xml
+    <repositories>
+        <repository>
+            <id>repo.tubeof</id>
+            <url>https://hub.tubeof.de/repo/</url>
+        </repository>
+    </repositories>
+```
