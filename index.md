@@ -1,4 +1,4 @@
-Title: Docs-Home
+Title: Home
 
 # Welcome to our Docs!
 
