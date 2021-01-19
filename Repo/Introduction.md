@@ -7,4 +7,5 @@ For example, AntiCooldown or TubeTils can be implemented directly into your Mave
 
 - Maven
 - An IDE that supports Maven
+
 Thats it!
