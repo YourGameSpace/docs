@@ -1,8 +1,11 @@
-Title: Cache Container
+Title: Cache-Container
 
-## What is a Cache Container?
+## What is a Cache-Container?
 
-Cache
+In a Cache-Container, all kinds of values of the data types available in Java can be stored temporarily in order to be able to retrieve them at a later time.
+
+
+This is very useful for Config-Files, among other things, so that IO-Resources can be saved and stored values from your Config-File can be retrieved quickly (much faster than getting data directly from the hard disk) and easily from the Cache-Container.
 
 ## Create a new instance
 
