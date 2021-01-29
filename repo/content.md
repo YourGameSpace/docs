@@ -2,7 +2,7 @@ Title: Content
 
 # Content
 
-Here you can find all the contents of our repository, including all the versions that can be included and used in your Maven project.
+Here you can find all the contents of our repository, including all the versions that can be included and used in your Maven-Project.
 
 ## TubeTils
 
