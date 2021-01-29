@@ -10,7 +10,7 @@ Versions:
 - SNAPSHOT-10 (1.14.4 or higher)
 - SNAPSHOT-12 (1.14.4 or higher)
 - SNAPSHOT-16 (1.14.4 or higher)
-- SNAPSHOT-28 (1.14.4 or higher
+- SNAPSHOT-28 (1.14.4 or higher)
 
 Dependency:
 ```xml
