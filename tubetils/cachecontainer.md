@@ -7,12 +7,12 @@ In a Cache-Container, all kinds of values of the data types available in Java ca
 
 This is very useful for Config-Files, among other things, so that IO-Resources can be saved and stored values from your Config-File can be retrieved quickly (much faster than getting data directly from the hard disk) and easily from the Cache-Container.
 
-## Create a new instance
+## Create a new Cache-Container-Instance
 
-In order to use cache containers, a new instance must be created. In the best case, this should be created from the main class. However, instances can also be created in other classes.
+In order to use Cache-Containers, a new instance must be created. In the best case, this should be created from your main class. However, instances can also be created in other classes.
 
 
-In our example, we create a new instance in the main class and store it in variables so that the cache container can later be used from all classes:
+In our example, we create a new instance in the main class and store it in a variable so that it can later be used from all classes:
 
 ```java
 package de.tubeof.tubetils.usage.example.main;
