@@ -42,4 +42,7 @@ public class TubeTilsExample extends JavaPlugin {
 
 ## Creating multiple instances
 
-The creation of further instances is no problem, as all values are cached separately. This means that additional cache container instances can be created without any problems in order to be able to use a separate instance for each config file as an example.
+The creation of further instances is no problem, as all values are cached separately. This means that additional Cache-Container instances can be created without any problems in order to be able to use a separate instance for each Config-File as an example.
+
+
+To create another instance, you need to do the same as in the previous step. It is important that the name is not the same as the name of another instance!
