@@ -20,7 +20,7 @@ package de.tubeof.tubetils.usage.example.main;
 import de.tubeof.tubetils.api.cache.CacheContainer;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class TubeTileExample extends JavaPlugin {
+public class TubeTilsExample extends JavaPlugin {
 
     private static CacheContainer cacheContainer = new CacheContainer("TubeTilsExample");
 
@@ -38,7 +38,6 @@ public class TubeTileExample extends JavaPlugin {
         return cacheContainer;
     }
 }
-
 ```
 
 ## Creating multiple instances
