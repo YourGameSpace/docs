@@ -14,7 +14,7 @@ TubeTils is a comprehensive Developer-API that can simplify programming for the 
     <dependency>
         <groupId>de.tubeof</groupId>
         <artifactId>TubeTils</artifactId>
-        <version>SNAPSHOT-28</version>
+        <version>VERSION</version>
         <scope>provided</scope>
     </dependency>
     ```
