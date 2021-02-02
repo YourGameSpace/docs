@@ -6,6 +6,8 @@ Here you can find all the contents of our repository, including all the versions
 
 ## TubeTils
 
+TubeTils is a comprehensive Developer-API that can simplify programming for the Spigot API by providing many helpful and useful methods for sometimes very complex things.
+
 === "Dependency"
 
     ``` xml
