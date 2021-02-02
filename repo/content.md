@@ -19,7 +19,7 @@ Here you can find all the contents of our repository, including all the versions
         <dependency>
             <groupId>de.tubeof</groupId>
             <artifactId>TubeTils</artifactId>
-            <version>VERSION</version>
+            <version>SNAPSHOT-28</version>
             <scope>provided</scope>
         </dependency>
-     ```
+    ```
