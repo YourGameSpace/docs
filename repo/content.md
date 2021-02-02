@@ -16,10 +16,10 @@ Here you can find all the contents of our repository, including all the versions
 === "Dependency"
 
     ``` xml
-        <dependency>
-            <groupId>de.tubeof</groupId>
-            <artifactId>TubeTils</artifactId>
-            <version>SNAPSHOT-28</version>
-            <scope>provided</scope>
-        </dependency>
+    <dependency>
+        <groupId>de.tubeof</groupId>
+        <artifactId>TubeTils</artifactId>
+        <version>SNAPSHOT-28</version>
+        <scope>provided</scope>
+    </dependency>
     ```
