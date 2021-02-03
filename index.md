@@ -10,7 +10,4 @@ This is the official documentation for all TUBEOF projects and products.
 
 ## Questions or issues?
 
-If you have any questions or problems, our support is always at your disposal. Please visit our [Support-Center](https://tubeof.de/support/).
-
-<center>Any questions or issues?</center>
-[<center><img style="text-align:center" src="https://hub.tubeof.de/prodimg/discord.png"></center>](https://discord.gg/73ZDfbx)
+You have questions or a problem? Our support is available almost 24 hours a day, 365 days a year! Just check out our [Support-Center](https://tubeof.de/support/) for more information and contact options.
