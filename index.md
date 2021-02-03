@@ -2,7 +2,7 @@ Title: Home
 
 # Welcome to our Docs!
 
-This is the official documentation for all TUBEOF projects and products.
+We are happy to welcome you here! Here you will find the documentation of all products and projects of TUBEOF summarized in short but very informative articles.
 
 ## Frequently read posts
 
