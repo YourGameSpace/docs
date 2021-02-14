@@ -11,5 +11,6 @@ ServerSleeper lets your server sleep when nobody is playing. That would save res
 
 ## Download
 
-You can download it here: https://www.spigotmc.org/resources/84179/
+You can download it here: [https://www.spigotmc.org/resources/84179/]()
+
 For the download, ServerSleeper must be purchased beforehand. A SpigotMC.org account is required, including PayPal for payment.
