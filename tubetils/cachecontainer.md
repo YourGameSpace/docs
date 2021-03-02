@@ -82,3 +82,34 @@ In the following example we add a total of 4 values to the Cache-Container, two 
         cacheContainer.add(Integer.class, "DifferentIntegerCacheValueName", 61);
     }
 ```
+
+## Getting values from a Cache-Container
+
+The output of stored values of a Cache-Container is very simple.
+Values are stored per data type with a name and can thus be identified with it later at any time. For the output of values the `cacheContainer#get(DataType.class, "CacheValueNameExample");` method will be used.
+
+In the following example, we send a message to the player that connects to the server using the PlayerJoinEvent. Here we refer to the string value named `StringCacheValueNameExample`which was added in the previous example:
+
+```java
+package de.tubeof.tubetils.usage.example.listener;
+
+import de.tubeof.tubetils.api.cache.CacheContainer;
+import de.tubeof.tubetils.usage.example.main.TubeTilsExample;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerJoinEvent;
+
+public class Join implements Listener {
+
+    private final CacheContainer cacheContainer = TubeTilsExample.getCacheContainer();
+
+    @EventHandler
+    public void onJoin(PlayerJoinEvent event) {
+        Player player = event.getPlayer();
+        String welcomeMessage = (String) cacheContainer.get(String.class, "StringCacheValueNameExample");
+
+        player.sendMessage(welcomeMessage);
+    }
+}
+```
