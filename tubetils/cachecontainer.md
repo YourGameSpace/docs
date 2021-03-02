@@ -56,8 +56,13 @@ The data type is always specified in the form of the class. So it is also possib
 Registration takes place after a Cache-Container-Instance has been created. In the following example, the data types "String" and "Integer" are registered.
 
 ```java
-    private void registerCacheTypes() {
+    private void registerDataTypes() {
         cacheContainer.registerCacheType(String.class);
         cacheContainer.registerCacheType(Integer.class);
     }
 ```
+
+## Adding values to a Cache-Container
+
+??? warning 
+   Test
