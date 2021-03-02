@@ -50,6 +50,9 @@ To create another instance, you need to do the same as in the previous step. It 
 ## Registration of data types
 
 In order to fill a Cache-Container with values, the respective desired data types must first be registered so that they can be stored.
+The registration of a data type is done with the methde `cacheContainer#registerCacheType(DataType.class);`
+The data type is always specified in the form of the class. So it is also possible to store each own data type in a Cache-Container.
+
 Registration takes place after a Cache-Container-Instance has been created. In the following example, the data types "String" and "Integer" are registered.
 
 ```java
