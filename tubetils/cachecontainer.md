@@ -64,5 +64,8 @@ Registration takes place after a Cache-Container-Instance has been created. In t
 
 ## Adding values to a Cache-Container
 
-??? warning 
-   Test
+??? optional-class "Summary"
+    Here's some content.
+
+??? multiple optional-class "Summary"
+    Here's some content.
