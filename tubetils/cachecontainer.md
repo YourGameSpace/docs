@@ -64,7 +64,7 @@ In the following example, the String and Integer data types will be registered f
 
 ## Adding values to a Cache-Container
     
-After the instance has been created and the respective data type has been registered, values can now be added. Each value is identified with a name so that the value can be returned later. A value can be added to a Cache-Container with the method `cacheContainer#add(DataType.class, "CacheValueNameExample", "Example Value");`.
+After the instance has been created and the respective data type has been registered, values can now be added. Each value is identified with a name so that the value can be returned later. A value can be added to a Cache-Container with the `cacheContainer#add(DataType.class, "CacheValueNameExample", "Example Value");` method.
 
 ???+ warning
     If a value with this name already exists, then the already stored value will be overwritten by the new value.
