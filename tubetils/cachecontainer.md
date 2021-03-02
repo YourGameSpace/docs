@@ -86,7 +86,7 @@ In the following example we add a total of 4 values to the Cache-Container, two 
 ## Getting values from a Cache-Container
 
 Getting values stored in a Cache-Container is just as easy as adding them.
-Values are stored per data type with a name and can thus be identified with it later at any time. For the output of values the `cacheContainer#get(DataType.class, "CacheValueNameExample");` method will be used.
+Values are stored per data type with a name and can thus be identified with it later at any time. To get stored values, the `cacheContainer#get(DataType.class, "CacheValueNameExample");` method will be used.
 
 In the following example, we send a message to the player that connects to the server using the PlayerJoinEvent. Here we refer to the string value named `StringCacheValueNameExample` which was added in the previous example:
 
