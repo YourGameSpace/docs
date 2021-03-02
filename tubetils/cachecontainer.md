@@ -63,7 +63,23 @@ In the following example, the String and Integer data types will be registered f
 ```
 
 ## Adding values to a Cache-Container
-
-???+ warning
-    Make sure that the data type is already registered, otherwise it will not be saved!
     
+After the instance has been created and the respective data type has been registered, values can now be added. Each value is identified with a name so that the value can be returned later.
+
+???+ note
+    If a value with this name already exists, then the already stored value will be overwritten by the new value.
+
+A value can be added to a Cache-Container with the method `cacheContainer#add(DataType.class, "CacheValueNameExample", "Example Value");`.
+In the following example we add a total of 4 values to the Cache-Container, two different values per registered data type:
+
+```java
+    private void addCacheValues() {
+        //Strings
+        cacheContainer.add(String.class, "StringCacheValueNameExample", "Example Value");
+        cacheContainer.add(String.class, "DifferentStringCacheValueName", "Different Value");
+
+        //Integers
+        cacheContainer.add(Integer.class, "IntegerCacheValueNameExample", 1);
+        cacheContainer.add(Integer.class, "DifferentIntegerCacheValueName", 61);
+    }
+```
