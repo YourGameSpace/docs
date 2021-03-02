@@ -56,10 +56,10 @@ The data type is always specified in the form of the class. So it is also possib
 In the following example, the String and Integer data types will be registered for the created Cache-Container-Instance:
 
 ```java
-    private void registerDataTypes() {
-        cacheContainer.registerCacheType(String.class);
-        cacheContainer.registerCacheType(Integer.class);
-    }
+private void registerDataTypes() {
+    cacheContainer.registerCacheType(String.class);
+    cacheContainer.registerCacheType(Integer.class);
+}
 ```
 
 ## Adding values to a Cache-Container
@@ -72,15 +72,15 @@ After the instance has been created and the respective data type has been regist
 In the following example we add a total of 4 values to the Cache-Container, two different values per registered data type:
 
 ```java
-    private void addCacheValues() {
-        //Strings
-        cacheContainer.add(String.class, "StringCacheValueNameExample", "Example Value");
-        cacheContainer.add(String.class, "DifferentStringCacheValueName", "Different Value");
-
-        //Integers
-        cacheContainer.add(Integer.class, "IntegerCacheValueNameExample", 1);
-        cacheContainer.add(Integer.class, "DifferentIntegerCacheValueName", 61);
-    }
+private void addCacheValues() {
+    //Strings
+    cacheContainer.add(String.class, "StringCacheValueNameExample", "Example Value");
+    cacheContainer.add(String.class, "DifferentStringCacheValueName", "Different Value");
+    
+    //Integers
+    cacheContainer.add(Integer.class, "IntegerCacheValueNameExample", 1);
+    cacheContainer.add(Integer.class, "DifferentIntegerCacheValueName", 61);
+}
 ```
 
 ## Getting values from a Cache-Container
