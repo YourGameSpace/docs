@@ -53,7 +53,7 @@ In order to fill a Cache-Container with values, the respective desired data type
 The registration of a data type can be done using the `cacheContainer#registerCacheType(DataType.class);` method.
 The data type is always specified in the form of the class. So it is also possible to store each own data type in a Cache-Container.
 
-Registration takes place after a Cache-Container-Instance has been created. In the following example, the data types "String" and "Integer" are registered.
+In the following example, the String and Integer data types will be registered for the created Cache-Container-Instance:
 
 ```java
     private void registerDataTypes() {
