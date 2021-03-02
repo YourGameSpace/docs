@@ -64,8 +64,6 @@ Registration takes place after a Cache-Container-Instance has been created. In t
 
 ## Adding values to a Cache-Container
 
-??? optional-class "Summary"
-    Here's some content.
-
-??? multiple optional-class "Summary"
-    Here's some content.
+???+ warning
+    Make sure that the data type is already registered, otherwise it will not be saved!
+    
