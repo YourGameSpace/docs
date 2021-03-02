@@ -50,7 +50,7 @@ To create another instance, you need to do the same as in the previous step. It 
 ## Registration of data types
 
 In order to fill a Cache-Container with values, the respective desired data types must first be registered so that they can be stored.
-The registration of a data type can be done using the `cacheContainer#registerCacheType(DataType.class);` method.
+The registration of a data type can be done using the `cacheContainer#registerCacheType(DataType.class)` method.
 The data type is always specified in the form of the class. So it is also possible to store each own data type in a Cache-Container.
 
 In the following example, the String and Integer data types will be registered for the created Cache-Container-Instance:
@@ -64,7 +64,7 @@ In the following example, the String and Integer data types will be registered f
 
 ## Adding values to a Cache-Container
     
-After the instance has been created and the respective data type has been registered, values can now be added. Each value is identified with a name so that the value can be returned later. A value can be added to a Cache-Container with the `cacheContainer#add(DataType.class, "CacheValueNameExample", "Example Value");` method.
+After the instance has been created and the respective data type has been registered, values can now be added. Each value is identified with a name so that the value can be returned later. A value can be added to a Cache-Container with the `cacheContainer#add(DataType.class, "CacheValueNameExample", "Example Value")` method.
 
 ???+ warning
     If a value with this name already exists, then the already stored value will be overwritten by the new value.
@@ -86,7 +86,7 @@ In the following example we add a total of 4 values to the Cache-Container, two 
 ## Getting values from a Cache-Container
 
 Getting values stored in a Cache-Container is just as easy as adding them.
-Values are stored per data type with a name and can thus be identified with it later at any time. To get stored values, the `cacheContainer#get(DataType.class, "CacheValueNameExample");` method will be used.
+Values are stored per data type with a name and can thus be identified with it later at any time. To get stored values, the `cacheContainer#get(DataType.class, "CacheValueNameExample")` method will be used.
 
 In the following example, we send a message to the player that connects to the server using the PlayerJoinEvent. Here we refer to the string value named `StringCacheValueNameExample` which was added in the previous example:
 
