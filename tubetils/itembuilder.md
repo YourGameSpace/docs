@@ -157,3 +157,33 @@ public class Join implements Listener {
     }
 }
 ```
+
+**2 Line Lore-Skull-Item**
+
+Player-Skulls can also be created in the form of an item with a lore. Here again there is a method with which two lines can be defined, as these are used most often. In this example, we now create a skull item with a lore using the method `itemBuilder#loreSkullItem("Player123", "Example Name", "Example Lore 1", "Example Lore 2")`:
+
+```java
+package de.tubeof.tubetils.usage.example.listener;
+
+import de.tubeof.tubetils.api.itembuilder.ItemBuilder;
+import de.tubeof.tubetils.usage.example.main.TubeTilsExample;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerJoinEvent;
+import org.bukkit.inventory.PlayerInventory;
+
+public class Join implements Listener {
+
+    private final ItemBuilder itemBuilder = TubeTilsExample.getItemBuilder();
+
+    @EventHandler
+    public void onJoin(PlayerJoinEvent event) {
+        Player player = event.getPlayer();
+        PlayerInventory inventory = player.getInventory();
+
+        inventory.addItem(itemBuilder.loreSkullItem("ExamplePlayer123", "Player Skull Item", "Lore 1", "Lore 2"));
+
+    }
+}
+```
