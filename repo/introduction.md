@@ -17,7 +17,7 @@ In order to access our Repository with Maven and then use it afterwards, the Rep
 ```xml
     <repositories>
         <repository>
-            <id>repo.tubeof</id>
+            <id>repo.yourgamespace</id>
             <url>https://hub.yourgamespace.com/repo/</url>
         </repository>
     </repositories>
