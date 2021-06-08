@@ -39,7 +39,6 @@ TubeTilsManager is made for easy management and installation of TubeTils in plug
         <groupId>de.tubeof</groupId>
         <artifactId>TubeTilsManager</artifactId>
         <version>VERSION</version>
-        <scope>provided</scope>
     </dependency>
     ```
 
