@@ -27,3 +27,22 @@ TubeTils is a comprehensive Developer-API that can simplify programming for the 
     - SNAPSHOT-28 (1.14.4 or higher)
     - SNAPSHOT-40 (1.14.4 or higher)
     - SNAPSHOT-46 (1.13.2 or higher)
+
+## TubeTilsManager
+
+TubeTilsManager is made for easy management and installation of TubeTils in plugins. It also has an auto-update function included. 
+
+=== "Dependency"
+
+    ``` xml
+    <dependency>
+        <groupId>de.tubeof</groupId>
+        <artifactId>TubeTilsManager</artifactId>
+        <version>VERSION</version>
+        <scope>provided</scope>
+    </dependency>
+    ```
+
+=== "Versions"
+
+    - SNAPSHOT-1 (Supports the same versions as the respective version of TubeTils)
