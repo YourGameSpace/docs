@@ -27,6 +27,7 @@ TubeTils is a comprehensive Developer-API that can simplify programming for the 
     - SNAPSHOT-28 (1.14.4 or higher)
     - SNAPSHOT-40 (1.14.4 or higher)
     - SNAPSHOT-46 (1.13.2 or higher)
+    - SNAPSHOT-48 (1.13.2 or higher)
 
 ## TubeTilsManager
 
