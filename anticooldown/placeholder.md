@@ -7,10 +7,10 @@ Since AntiCooldown v4, there is also a player cooldown in addition to the world 
 
 ## World-Cooldown Placeholders
 
-| Placeholder | Reference | Cooldown Status | Default Placeholder Content | Config Option |
-|:---:|:---:|:---:|:---:|:---:|
-| anticooldown_worldcooldown | World | Enabled | Enabled | Placeholder.World.CooldownEnabled |
-| anticooldown_worldcooldown | World | Disabled | Disabled | Placeholder.World.CooldownDisabled |
+|         Placeholder        | Reference | Cooldown Status | Default Placeholder Content |            Config Option           |
+|:--------------------------:|:---------:|:---------------:|:---------------------------:|:----------------------------------:|
+| anticooldown_worldcooldown |   World   |     Enabled     |           Enabled           |  Placeholder.World.CooldownEnabled |
+| anticooldown_worldcooldown |   World   |     Disabled    |           Disabled          | Placeholder.World.CooldownDisabled |
 
 ## Player-Cooldown Placeholders
 
