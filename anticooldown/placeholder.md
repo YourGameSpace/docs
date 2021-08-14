@@ -7,12 +7,14 @@ Since AntiCooldown v4, there is also a player cooldown in addition to the world 
 
 ## World-Cooldown Placeholders
 
-|         Placeholder        | Reference |                Default Content                |                               Config Option                              |
-|:--------------------------:|:---------:|:---------------------------------------------:|:------------------------------------------------------------------------:|
-| anticooldown_worldcooldown |   World   | When enabled: Enabled When disabled: Disabled | Placeholder.World.CooldownEnabled Placeholder.World.CoolCooldownDisabled |
+|         Placeholder        | Reference | Cooldown Status | Default Placeholder Content |            Config Option           |
+|:--------------------------:|:---------:|:---------------:|:---------------------------:|:----------------------------------:|
+| anticooldown_worldcooldown |   World   |     Enabled     |           Enabled           |  Placeholder.World.CooldownEnabled |
+| anticooldown_worldcooldown |   World   |     Disabled    |           Disabled          | Placeholder.World.CooldownDisabled |
 
 ## Player-Cooldown Placeholders
 
-|         Placeholder         | Reference |                Default Content                |                                Config Option                               |
-|:---------------------------:|:---------:|:---------------------------------------------:|:--------------------------------------------------------------------------:|
-| anticooldown_playercooldown |   Player  | When enabled: Enabled When disabled: Disabled | Placeholder.Player.CooldownEnabled Placeholder.Player.CoolCooldownDisabled |
+|         Placeholder         | Reference | Cooldown Status | Default Placeholder Content |            Config Option            |
+|:---------------------------:|:---------:|:---------------:|:---------------------------:|:-----------------------------------:|
+| anticooldown_playercooldown |   Player  |     Enabled     |           Enabled           |  Placeholder.Player.CooldownEnabled |
+| anticooldown_playercooldown |   Player  |     Disabled    |           Disabled          | Placeholder.Player.CooldownDisabled |
