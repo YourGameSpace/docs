@@ -21,10 +21,12 @@ This lists all worlds that are currently deactivated, i.e. AntiCooldown does not
 
 The command can be used to reactivate a world so that AntiCooldown will make changes again.
 
-A name of the desired world can also be specified, otherwise the world in which the player is currently located is used.
+???+ info
+    A name of the desired world can also be specified, otherwise the world in which the player is currently located is used.
 
 ## /anticooldown disableWorld
 
 The command can be used to deactivate a world so that AntiCooldown no longer makes any changes.
 
-A name of the desired world can also be specified, otherwise the world in which the player is currently located is used.
+???+ info
+    A name of the desired world can also be specified, otherwise the world in which the player is currently located is used.
