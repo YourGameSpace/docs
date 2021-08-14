@@ -87,6 +87,7 @@ Placeholder:
     # if the cooldown is disabled in the world.
     CooldownDisabled: Disabled
   # Placeholder related to players cooldown
+  # Placeholder: anticooldown_playercooldown
   Player:
     # The content which is returned with the above placeholder,
     # if the cooldown is enabled for the player.
