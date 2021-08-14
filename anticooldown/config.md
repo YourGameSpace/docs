@@ -6,8 +6,6 @@ AntiCooldown is fully adjustable by the user. Almost every detail can be changed
 
 ## Config.yml
 
-*We recommend viewing the config directly on GitHub: [https://github.com/YourGameSpace/docs/blob/main/anticooldown/config.md#configyml](https://github.com/YourGameSpace/docs/blob/main/anticooldown/config.md#configyml)*
-
 ```yml
 # All messages of AntiCooldown
 Messages:
