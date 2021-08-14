@@ -6,7 +6,7 @@ AntiCooldown is fully adjustable by the user. Almost every detail can be changed
 
 ## Config.yml
 
-```yml
+```yaml
 # All messages of AntiCooldown
 Messages:
   # Prefix for chat messages
