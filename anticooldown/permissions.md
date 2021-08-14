@@ -19,6 +19,5 @@ Since AntiCooldown v4, it is also possible to activate general permissions suppo
 ## Feature-Permissions
 
 ???+ info
-    By default, it is not necessary to assign permissions!
-    
-    The assignment of permissions is only necessary if permission support has been activated in the Config.
+    **By default, it is not necessary to assign permissions!
+    The assignment of permissions is only necessary if permission support has been activated in the Config.**
