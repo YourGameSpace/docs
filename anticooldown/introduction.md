@@ -13,6 +13,7 @@ AntiCooldown does what the name already says - it deactivates the PvP Cooldown a
 - **REMOVE ATTACK PARTICLES!** The new attack particles (including the sweep attack particles) can be removed.
 - **CUSTOM ITEM DAMAGE!** Damage can be overwritten for each item, including the new Netherite tools and weapons!
 - **ITEM RESTRICTION!** The cooldown can be temporarily deactivated for items. It can also be used as a whitelist so that only the cooldown of these items is deactivated.
+- **PLACEHOLDERS!** AntiCooldown offers placeholders for the PlaceholderAPI, with which the cooldown status of players or the world can be displayed.
 - **WORLD TOGGLE!** It is possible to select for each world whether AntiCooldown is active in it or not.
 - **PERMISSIONS SYSTEM!** There is a large permission system available which can be activated. This means that features can be enabled/disabled individually for each player/group.
 - **BYPASS PERMISSIONS!** Deactivated worlds should be ignored? Simply activate the bypass and give the permissions to a player!
