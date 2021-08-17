@@ -2,7 +2,7 @@ Title: Config-Files
 
 # Config-Files
 
-AntiCooldown is fully adjustable by the user. Almost every detail can be changed through the config. If anything is unclear, our (support)[https://yourgamespace.com/support/] is always available!
+AntiCooldown is fully adjustable by the user. Almost every detail can be changed through the config. If anything is unclear, our [support](https://yourgamespace.com/support/) is always available!
 
 ## Config.yml
 
