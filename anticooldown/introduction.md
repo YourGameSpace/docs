@@ -19,6 +19,7 @@ AntiCooldown does what the name already says - it deactivates the PvP Cooldown a
 
 - Java 8 (or higher)
 - A Bukkit/Spigot Server
+- TubeTils (Installs automatically)
 - ProtocolLib (optional)
 
 ## Download
