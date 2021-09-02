@@ -29,7 +29,7 @@ Messages:
 
 # All settings of ServerSleeper
 Settings:
-  # Should FastLogin be enabled? (not recommend)
+  # Should FastLogin be enabled? (not recommended)
   # WARNING: Can cause issues for other plugins!
   # With FastLogin, players can connect directly to the server even if sleep mode is activated.
   # If FastLogin is disabled, the login is blocked the first time and the player has to connect again.
