@@ -10,3 +10,8 @@ Permissions are used by ServerSleeper mainly for commands, so only authorised pl
 |:------------:|:--------------:|:---------------------------------:|
 | /togglesleep | Toggle-Command | serversleeper.command.togglesleep |
 
+## Feature-Permissions
+
+|       Feature       	|                                                             Description                                                             	|             Permission            	|
+|:-------------------:	|:-----------------------------------------------------------------------------------------------------------------------------------:	|:---------------------------------:	|
+| Update Notification 	| All players with these permissions will receive a notification when they enter the server if there is an update from ServerSleeper. 	| serversleeper.update.notification 	|
