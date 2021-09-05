@@ -2,9 +2,6 @@ Title: Commands
 
 # Commands
 
-Since v4, AntiCooldown has offered placeholders for the [PlaceholderAPI](https://www.spigotmc.org/resources/6245/) that show the current cooldown status.
-Since AntiCooldown v4, there is also a player cooldown in addition to the world cooldown, which is controlled by permissions or the ItemRestriction module.
-
 ## /anticooldown
 
 This is the main command of AntiCooldown, through which all other sub-commands can be executed
