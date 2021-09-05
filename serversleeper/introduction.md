@@ -18,7 +18,8 @@ ServerSleeper lets your server sleep when nobody is playing. That would save res
 ## Requirements
 
 - Java 8 (or higher)
-- A Bukkit/Spigot Server
+- Spigot Server
+- TubeTils (Installs automatically)
 
 ## Download
 
