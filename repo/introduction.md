@@ -17,8 +17,20 @@ In order to access our Repository with Maven and then use it afterwards, the Rep
 ```xml
     <repositories>
         <repository>
+            <id>nexus.yourgamespace</id>
+            <url>https://hub.yourgamespace.com/nexus/repository/public/</url>
+        </repository>
+    </repositories>
+```
+
+### Legacy
+
+```xml
+    <repositories>
+        <repository>
             <id>repo.yourgamespace</id>
             <url>https://hub.yourgamespace.com/repo/</url>
         </repository>
     </repositories>
 ```
+
