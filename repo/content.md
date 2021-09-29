@@ -3,7 +3,7 @@ Title: Content
 ???+ info
     Since we have been using Nexus Repository Manager, we no longer list the contents of this repo.
     The content can be accessed at any time in Nexus itself:
-    https://hub.yourgamespace.com/nexus/#browse/browse:snapshots
+    [https://hub.yourgamespace.com/nexus/#browse/browse:snapshots](https://hub.yourgamespace.com/nexus/#browse/browse:snapshots)
 
 
 # Content
