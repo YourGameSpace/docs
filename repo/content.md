@@ -1,5 +1,12 @@
 Title: Content
 
+???+ info
+    Since we have been using Nexus Repository Manager, we no longer list the contents of this repo.
+    
+    The content can be accessed at any time in Nexus itself:
+    https://hub.yourgamespace.com/nexus/#browse/browse:snapshots
+
+
 # Content
 
 Here you can find all the contents of our repository, including all the versions that can be included and used in your Maven-Project.
