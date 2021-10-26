@@ -175,6 +175,13 @@ Settings:
     # Should the new attack sounds be deactivated?
     # Available options: true, false
     DisableNewCombatSounds: true
+    # Should player collisions be disabled?
+    # Available options: true, false
+    DisablePlayerCollision: true
+    # Should the cooldown of ender pearls be deactivated?
+    # This will also disable the cooldown animation at the client.
+    # Available options: true, false
+    DisableEnderpearlCooldown: true
     CustomItemDamage:
       # Determines whether the EnableCustomItemDamage module should be activated.
       # The damage of the defined items in "CustomItemDamage" is thereby applied.
