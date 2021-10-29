@@ -28,3 +28,7 @@ Since AntiCooldown v4, it is also possible to activate general permissions suppo
 |    Combat Sounds   |                                                               This deactivates the new combat sounds for the player                                                              |   anticooldown.combatsounds   |
 |    Sweep Attack    |                        This deactivates the sweep attack, which means that no other mobs in the vicinity suffer damage. It also deactivates the particles.                       |    anticooldown.sweepattack   |
 | Custom Item Damage |            If the player is holding an item that has custom damage defined in the config, the damage of the item is overwritten with the damage defined in the config.           | anticooldown.customitemdamage |
+| Enderpearl Cooldown | Allows the player to shoot enderpearls without ccooldown. | anticooldown.enderpearlcooldown |
+| Player Collisions | This disables player collisions so that you can run through them. | anticooldown.collisions |
+
+
