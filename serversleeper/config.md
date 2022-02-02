@@ -101,6 +101,6 @@ Settings:
 
 # Version of the current config
 # DO NOT CHANGE!
-ConfigVersion: 8
+ConfigVersion: 9
 
 ```
