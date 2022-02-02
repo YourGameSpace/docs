@@ -26,6 +26,9 @@ Messages:
   # Will only be used, if FastLogin is disabled
   LoginSleepEnabled: §cServer was in Sleep-Mode.%nPlease connect again, to join the
     server.
+  # Message when a player tries to join and login delay is active
+  # Will only be used, if FastLogin is disabled
+  LoginDelayEnabled: §cThe server is waking up.%nPlease try again in few seconds.
 
 # All settings of ServerSleeper
 Settings:
@@ -65,6 +68,8 @@ Settings:
       # The strength of the sleep mode to be applied.
       # WARNING: The value should not be changed: Server crash possible!
       SleepingTimePerTick: 1200
+      # Delay before players can join, after ServerSleepTask was disabled
+      LoginTickDelayAfterStop: 120
 
   # Settings related to cronjobs
   Cronjobs:
